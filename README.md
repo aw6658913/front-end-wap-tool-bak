@@ -29,13 +29,12 @@ npm run mock
 
     ├── .temp                  // H5编译结果目录
     ├── dist                   // 小程序编译结果目录
+    ├── scripts                // 快速生成页面脚本
     ├── mock                   // mock数据
     ├── config                 // Taro配置目录
     │   ├── dev.js                 // 开发时配置
     │   ├── api.js               // 默认配置
     │   └── prod.js                // 打包时配置
-    ├── screenshots            // 项目截图，和项目开发无关
-    ├── site                   // H5静态文件（打包文件）
     ├── src                    // 源码目录
     │   ├── components             // 组件
     │   ├── config                 // 项目开发配置
