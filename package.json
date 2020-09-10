@@ -16,7 +16,9 @@
     "dev:tt": "npm run build:tt -- --watch",
     "dev:h5": "npm run build:h5 -- --watch",
     "dev:rn": "npm run build:rn -- --watch",
-    "mock": "mocker ./mock"
+    "mock": "mocker ./mock",
+    "temp": "node scripts/template",
+    "comp": "node scripts/component"
   },
   "author": "",
   "license": "MIT",
