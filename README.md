@@ -54,6 +54,7 @@ npm run mock
     │   ├── styles             // 样式文件
     │   ├── utils              // 常用工具类
     │   │    └── dva.js        // 集成dva
+        |    └── util.js       // 封装公共Taro API
     │   ├── app.js             // 入口文件
     │   └── index.html
     └── package.json
