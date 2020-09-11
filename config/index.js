@@ -1,3 +1,5 @@
+const path = require("path")
+
 const config = {
   projectName: "ddrb-taro",
   date: "2019-6-3",
@@ -31,6 +33,9 @@ const config = {
   copy: {
     patterns: [],
     options: {}
+  },
+  alias: {
+    '@/utils': path.resolve(__dirname, '..', 'src/utils'),
   },
   weapp: {
     module: {
